@@ -1,11 +1,12 @@
+#este es el diccionario
 persona = {
-    "nombre": {},
-    "edad": {},
-    "ciudad": {},
+    "nombre": "Eduardo",
+    "edad": 31,
+    "ciudad": "valparaiso",
 }
 
 if "edad" in persona and persona ["edad"] >=18:
-    print(f"{persona['nombre']} es mayor de edad. ")
+    print(f"{persona['nombre']}es mayor de edad. ")
 else:
     print(f"{persona['nombre']}no es mayor de edad. ")
 
